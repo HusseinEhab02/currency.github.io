@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(to right bottom ,black ,brown);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.header{
+    color: antiquewhite;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.inputbox{
+    /* display: flex; */
+    color: blanchedalmond;
+
+}
+span{
+    display: block;
+    margin-right: 10px;
+}
+input{
+    margin-right: 20px;
+}
+.btn{
+    color: bisque;
+    background-color: black;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.315);
+    margin-top: 5px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conv{
+    margin-right: 20px;
+}
+.clear{
+    margin-left: 20px;
+}
+input::placeholder{
+    color:brown
+}
+.text{
+    color: rgb(185, 108, 108);
+    transition: all 1s;
+}
